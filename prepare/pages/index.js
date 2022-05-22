@@ -1,11 +1,14 @@
-import AppLayout from "../components/AppLayout";
+import React from 'react';
+import Head from 'next/head';
+import AppLayout from '../components/AppLayout';
 
-const App = ()=>{
-    return (
-        <AppLayout>
-            <div>hello react bird</div>
-        </AppLayout>
-    )
-}
+const Home = () => (
+  <AppLayout>
+    <Head>
+      <title>NodeBird</title>
+    </Head>
+    <div>Hello, Next!</div>
+  </AppLayout>
+);
 
-export default App;
+export default Home;

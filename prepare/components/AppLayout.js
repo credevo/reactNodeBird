@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 
 const AppLayout = ({children})=>{
+    const [first, setfirst] = useState(second)
     return (
         <div>
             <div>
@@ -18,6 +19,7 @@ const AppLayout = ({children})=>{
             <div>공통메뉴</div>
             <h3>{children}</h3>
         </div>
+
     )
 }
 
