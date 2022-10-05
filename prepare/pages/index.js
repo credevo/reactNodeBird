@@ -4,10 +4,10 @@ import AppLayout from '../components/AppLayout';
 
 const Home = () => (
   <AppLayout>
-    <Head>
-      <title>NodeBird</title>
-    </Head>
-    <div>Hello, Next!</div>
+      <Head>
+        <title>NodeBird</title>
+      </Head>
+      <div>Hello, Next!</div>
   </AppLayout>
 );
 

@@ -7,6 +7,7 @@ const NodeBird = ({ Component }) => {
   return (
     <>
       <Head>
+        <title>NodeBird2</title>
         <title>NodeBird</title>
       </Head>
       <Component />

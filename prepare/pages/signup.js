@@ -22,7 +22,7 @@ const Signup = () => {
     }
     if (!term) {
       setTermError(true);
-      return;
+      return;dosleptmzm go
     }
     console.log({
       id,

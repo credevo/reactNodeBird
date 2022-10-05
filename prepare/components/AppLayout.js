@@ -1,9 +1,11 @@
+import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import Link from 'next/link';
 
 
 const AppLayout = ({children})=>{
+    const second= 1;
     const [first, setfirst] = useState(second)
     return (
         <div>
